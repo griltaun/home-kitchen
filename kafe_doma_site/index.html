@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eadc">
+  <meta name="description" content="Кафе «Домашняя кухня» в Новочеркасске. Вкусно. Как дома!">
+  <title>Кафе «Домашняя кухня» — Вкусно. Как дома!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Домой">
+      <span class="brand-mark">ДК</span>
+      <span><b>Домашняя кухня</b><small>КАФЕ · НОВОЧЕРКАССК</small></span>
+    </a>
+    <nav><a href="#about">О кафе</a><a href="#menu">Меню</a><a href="#visit">Как нас найти</a></nav>
+    <a class="phone" href="tel:+79952906262">+7 (995) 290-62-62</a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> КАФЕ ДОМАШНЕЙ КУХНИ</p>
+        <h1>Вкусно.<br><em>Как дома!</em></h1>
+        <p class="hero-text">Тёплая атмосфера, любимые блюда и обеды, которые напоминают о доме.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Посмотреть меню <span>↘</span></a>
+          <a class="text-link" href="tel:+79952906262">Позвонить нам</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>Обеды каждый день<br><b>с 12:00 до 15:00</b></span></div>
+      </div>
+      <div class="hero-visual">
+        <!-- Добавьте своё фото в assets/food.jpg и замените изображение ниже -->
+        <div class="photo-frame"><img src="assets/food.jpg" alt="Домашнее блюдо" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')">
+          <div class="photo-fallback"><span>✳</span><b>Ваше фото<br>домашнего блюда</b><small>assets/food.jpg</small></div>
+        </div>
+        <div class="round-stamp"><span>С любовью</span><b>♡</b><span>к каждому блюду</span></div>
+        <div class="visual-caption">Просто. Душевно. По-домашнему.</div>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="section-kicker">НАШЕ НАСТРОЕНИЕ</div>
+      <div class="intro-content"><h2>Место, где<br>всегда <em>уютно.</em></h2>
+        <p>Заходите на сытный обед, встречайтесь с близкими или просто загляните за любимым вкусом. Мы готовим с душой — чтобы каждый визит был немного как возвращение домой.</p>
+      </div>
+      <div class="intro-bottom"><span>✳ Домашний вкус</span><span>✳ Душевная атмосфера</span><span>✳ Обеды 12:00–15:00</span></div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading"><div><div class="section-kicker">ЧТО МЫ ГОТОВИМ</div><h2>Наше <em>меню</em></h2></div>
+        <p>Выбирайте любимое —<br>и приходите в гости.</p>
+      </div>
+      <div class="menu-paper">
+        <img src="assets/menu.jpg" alt="Полное меню кафе Домашняя кухня с блюдами и ценами">
+      </div>
+      <p class="menu-hint">Нажмите на меню, чтобы открыть его крупнее.</p>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-left"><div class="section-kicker">ЖДЁМ В ГОСТИ</div><h2>Ваш уютный<br>обед <em>рядом.</em></h2>
+        <p>Будем рады видеть вас в нашем кафе. Заглядывайте на обед или звоните — мы на связи.</p>
+        <a class="button button-light" href="https://yandex.ru/maps/?text=Новочеркасск%20проспект%20Платовский%2069" target="_blank" rel="noopener">Построить маршрут ↗</a>
+      </div>
+      <div class="visit-details">
+        <div class="detail"><span class="detail-icon">⌖</span><div><small>АДРЕС</small><b>г. Новочеркасск,<br>пр. Платовский, 69</b></div></div>
+        <div class="detail"><span class="detail-icon">◷</span><div><small>РЕЖИМ РАБОТЫ</small><b>Ежедневно · 10:00–18:00</b><span>Обеды · 12:00–15:00</span></div></div>
+        <div class="detail"><span class="detail-icon">☎</span><div><small>ТЕЛЕФОН</small><b><a href="tel:+79952906262">+7 (995) 290-62-62</a></b></div></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#home">ДК</a><span>Кафе «Домашняя кухня»</span><span>Вкусно. Как дома! <b>♡</b></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
